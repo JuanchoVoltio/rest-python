@@ -1,0 +1,16 @@
+{
+  "perritos": [
+    {
+      "id": 1,
+      "nombre": "Pompilia",
+      "edad": 5,
+      "raza": "bulldog inglés"
+    },
+    {
+      "id": 2,
+      "nombre": "Yuma",
+      "edad": 1,
+      "raza": "pastor alemán"
+    }
+  ]
+}
