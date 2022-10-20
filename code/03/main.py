@@ -6,7 +6,7 @@ from pydantic import BaseModel
 
 class Item(BaseModel):
     nombre: str
-    descripción: Union[str, None] = None
+    descripción: Union[str, None] = "N/A"
     precio_base: float
     descuento: Union[float, None] = None
 
