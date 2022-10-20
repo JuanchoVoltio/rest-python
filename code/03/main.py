@@ -6,7 +6,7 @@ from pydantic import BaseModel
 
 class Item(BaseModel):
     nombre: str
-    descripción: Union[str, None] = "N/A"
+    descripción: Union[str, None] = "N/A" #Asignar un valor por omisión del campo.
     precio_base: float
     descuento: Union[float, None] = None
 

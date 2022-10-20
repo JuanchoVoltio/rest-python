@@ -14,7 +14,8 @@ class Perro(BaseModel):
     raza: str
 
 
-with open('/code/./app/datos-perros.json', 'r') as archivo_perros:
+# with open('/code/./app/datos-perros.json', 'r') as archivo_perros: #Lo usaremos para el despliegue en docker
+with open('datos-perros.json', 'r') as archivo_perros:
     perritos = json.load(archivo_perros)['perritos']
 
 
